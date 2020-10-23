@@ -26,7 +26,7 @@ Remember to proceed in small steps! Getting confused? Make the steps even smalle
 
 ## Code Quality
 
-For linting, you can use the `.rubocop.yml` in this repository (or your own!).
+For linting, you can use the `.` in this repository (or your own!).
 You'll need these gems:
 
 ```ruby

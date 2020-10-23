@@ -3,7 +3,7 @@
 <%= form_with(model: @post, local:true) do |form| %>
 <%= @post.image %>
 <%=form.label :caption %>
-<section id='edit'><%= form.text_area :caption%><section>
+<section id='edit'><%= form.text_area :caption %><section>
 <%= form.submit "Submit"%>
 <%end%>
 

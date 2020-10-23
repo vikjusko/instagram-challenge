@@ -1,5 +1,7 @@
 <%= simple_form_for @post do |f| %>
-  <%= f.input :image %>
+  <%= f.label :image %>
+  <%= f.file_field :image%>
+  <%= f.label :caption %>
   <%= f.input :caption %>
   <%= f.button :submit %>
 	<% end %>
